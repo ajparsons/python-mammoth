@@ -351,6 +351,7 @@ def _create_reader(numbering, content_types, relationships, styles, docx_file, f
         "w:tbl": table,
         "w:tr": table_row,
         "w:tc": table_cell,
+        "w:fldSimple": read_child_elements,
         "w:ins": read_child_elements,
         "w:smartTag": read_child_elements,
         "w:drawing": read_child_elements,
